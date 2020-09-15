@@ -12,4 +12,8 @@ export class Exercice2Component implements OnInit {
   ngOnInit() {
   }
 
+  showLog(el){
+    console.log(`you've clicked the element ${el.target.tagName}`)
+  }
+
 }
